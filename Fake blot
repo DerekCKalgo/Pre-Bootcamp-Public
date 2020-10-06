@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Talk About Yourself</title>
+        <meta name="description" content="It is detailed description about yourself">
+    </head>
+    <body>
+        <h1>Derek Kong</h1>
+        <p>A list of jobs</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Siemens</td>
+                    <td>Biochemist</td>
+                </tr>
+                <tr>
+                    <td>City of Hope</td>
+                    <td>Lab Associate</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>Detailed Oriented</li>
+            <li>Years of Experience</li>
+        </ul>
+        <a href="www.linkedin.com/DerekKong">My Linkedin Profle</a> 
+        <h1>Please take this short survey</h1>
+        <form action="process.pythron" method="post">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" name="Email">
+            <label for="Company">Company</label>
+            <input type="radio" id="Company" name="Company" value="Company">
+            <label for="Agency">Agency</label>
+            <input type="radio" id="Agency" name="Agency" value="Agency">
+            <h2>How did you get here?</h2>
+            <label for="Google">Google</label>
+            <input type="checkbox" id="Google" name="site" value="Google">
+            <label for="Facebook">Facebook</label>
+            <input type="checkbox" id="Facebook" name="site" value="Facebook">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
